@@ -1,12 +1,12 @@
 import joblib
-model = joblib.load("fake_news_detection_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("Fake_news_detection_model.pkl")
+vectorizer = joblib.load("Vectorizer.pkl")
 import streamlit as st
 import joblib
 
 # Load the trained model and vectorizer
-model = joblib.load("fake_news_detection_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("Fake_news_detection_model.pkl")
+vectorizer = joblib.load("Vectorizer.pkl")
 
 # Streamlit app UI
 st.title("📰 Fake News Detection App")
